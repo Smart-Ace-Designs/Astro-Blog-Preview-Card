@@ -1,7 +1,20 @@
 ---
 import MainLayout from "@/layouts/MainLayout.astro";
+import Image from "astro/components/Image.astro";
+
+import cardImage from "@/assets/illustration-article.svg";
 ---
 
 <MainLayout title="Frontend Mentor | Blog Preview Card">
-  <p>Beginning code...</p>
+  <div class="flex h-screen items-center">
+    <div
+      class="mx-auto max-w-[400px] rounded-2xl border border-neutralBlack bg-neutralWhite shadow-[rgb(18,18,18)_8px_8px_0px_0px]"
+    >
+      <Image
+        src={cardImage}
+        alt="A meaningless image to fill up space..."
+        class="m-6 rounded-xl"
+      />
+    </div>
+  </div>
 </MainLayout>
