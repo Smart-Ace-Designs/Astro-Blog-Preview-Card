@@ -9,21 +9,25 @@ import avatar from "@/assets/image-avatar.webp";
 <MainLayout title="Frontend Mentor | Blog Preview Card">
   <div class="flex h-screen items-center">
     <div
-      class="mx-auto max-w-[390px] rounded-3xl border border-neutralBlack bg-neutralWhite shadow-[rgb(18,18,18)_8px_8px_0px_0px]"
+      class="mx-auto max-w-[380px] rounded-3xl border border-neutralBlack bg-neutralWhite shadow-[rgb(18,18,18)_8px_8px_0px_0px]"
     >
-      <Image
-        src={cardImage}
-        alt="A meaningless image to fill up space..."
-        class="m-6 rounded-xl"
-      />
       <div class="m-6">
+        <Image
+          src={cardImage}
+          alt="A meaningless image to fill up space..."
+          class="mb-6 rounded-xl"
+        />
         <p
           class="mb-2 inline-block rounded-md bg-primaryYellow px-4 py-1 font-extrabold"
         >
           Learning
         </p>
         <p class="mb-4">Published 21 Dec 2023</p>
-        <h1 class="mb-4 text-2xl font-extrabold">HTML & CSS foundations</h1>
+        <h1
+          class="mb-4 text-2xl font-extrabold hover:cursor-pointer hover:text-primaryYellow"
+        >
+          HTML & CSS foundations
+        </h1>
         <p class="mb-4 text-neutralGrey">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
