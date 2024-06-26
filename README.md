@@ -40,12 +40,13 @@ Coming soon...
 - Astro [Major Tom](https://github.com/Smart-Ace-Designs/Astro-Major-Tom) Template
 - Tailwind CSS
 - Flexbox
-- CSS Grid
 - Bun
 
 ### Continued development
 
-Focus time on CSS grid and flex.
+- CSS Grid
+- Flexbox
+- Image sizing and scaling
 
 ### Useful resources
 
