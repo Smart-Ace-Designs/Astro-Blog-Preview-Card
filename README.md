@@ -24,13 +24,12 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
-Coming soon...
+![blog-preview-card](https://github.com/Smart-Ace-Designs/Astro-Blog-Preview-Card/assets/132539186/3b2d985c-ab7a-49ad-aff2-f06a8a432416)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub]([https://your-solution-url.com](https://github.com/Smart-Ace-Designs/Astro-Blog-Preview-Card)
+- Live Site URL: [Netlify](https://smartacedesigns-astro-blog-pc.netlify.app/)
 
 ## My process
 
