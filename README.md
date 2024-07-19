@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub]([https://your-solution-url.com](https://github.com/Smart-Ace-Designs/Astro-Blog-Preview-Card)
+- Solution URL: [GitHub](https://github.com/Smart-Ace-Designs/Astro-Blog-Preview-Card)
 - Live Site URL: [Netlify](https://smartacedesigns-astro-blog-pc.netlify.app/)
 
 ## My process
