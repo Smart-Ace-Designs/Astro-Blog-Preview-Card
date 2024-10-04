@@ -7,42 +7,44 @@ import avatar from "@/assets/image-avatar.webp";
 ---
 
 <MainLayout title="Frontend Mentor | Blog Preview Card">
-  <section
-    class="mx-auto w-[90%] max-w-96 rounded-3xl border border-neutralBlack bg-neutralWhite p-6 shadow-[rgb(18,18,18)_8px_8px_0px_0px] sm:w-96"
-  >
-    <div class="mb-6">
-      <Image
-        src={cardImage}
-        alt="Inspiring Symbology"
-        loading={"eager"}
-        class="w-full rounded-xl"
-      />
-    </div>
-    <div class="">
-      <h2
-        class="mb-2.5 inline-block rounded-sm bg-primaryYellow px-3 py-1 text-sm font-extrabold"
-      >
-        Learning
-      </h2>
-      <p class="mb-4 text-sm">Published 21 Dec 2023</p>
-
-      <h1>
-        <a
-          href="https://google.com"
-          referrerpolicy="no-referrer"
-          class="text-2xl font-extrabold hover:cursor-pointer hover:text-primaryYellow"
-        >
-          HTML & CSS foundations
-        </a>
-      </h1>
-      <p class="my-4 text-neutralGrey">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
-      <div class="flex items-center gap-3">
-        <Image src={avatar} alt="Greg Hooper" width="35" loading={"eager"} />
-        <p class="text-sm font-extrabold">Greg Hooper</p>
+  <main class="flex h-screen items-center">
+    <section
+      class="mx-auto w-[90%] max-w-96 rounded-3xl border border-neutralBlack bg-neutralWhite p-6 shadow-[rgb(18,18,18)_8px_8px_0px_0px] sm:w-96"
+    >
+      <div class="mb-6">
+        <Image
+          src={cardImage}
+          alt="Inspiring Symbology"
+          loading={"eager"}
+          class="w-full rounded-xl"
+        />
       </div>
-    </div>
-  </section>
+      <div class="">
+        <h2
+          class="mb-2.5 inline-block rounded-sm bg-primaryYellow px-3 py-1 text-sm font-extrabold"
+        >
+          Learning
+        </h2>
+        <p class="mb-4 text-sm">Published 21 Dec 2023</p>
+
+        <h1>
+          <a
+            href="https://google.com"
+            referrerpolicy="no-referrer"
+            class="text-2xl font-extrabold hover:cursor-pointer hover:text-primaryYellow"
+          >
+            HTML & CSS foundations
+          </a>
+        </h1>
+        <p class="my-4 text-neutralGrey">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex items-center gap-3">
+          <Image src={avatar} alt="Greg Hooper" width="35" loading={"eager"} />
+          <p class="text-sm font-extrabold">Greg Hooper</p>
+        </div>
+      </div>
+    </section>
+  </main>
 </MainLayout>
