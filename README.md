@@ -35,7 +35,7 @@ Users should be able to:
 ### Built with
 
 - Astro
-- Astro [Major Tom](https://github.com/Smart-Ace-Designs/Astro-Major-Tom) Template
+- Astro [Space](https://github.com/Smart-Ace-Designs/Astro-Space) Template
 - Tailwind CSS
 - Flexbox
 - Bun
