@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryYellow: "hsl(47, 88%, 63%)",
-        neutralWhite: "hsl(0, 0%, 100%)",
-        neutralGrey: "hsl(0, 0%, 50%)",
-        neutralBlack: "hsl(0, 0%, 7%)",
+        "theme-yellow": "hsl(47, 88%, 63%)",
+        "theme-white": "hsl(0, 0%, 100%)",
+        "theme-gray": "hsl(0, 0%, 50%)",
+        "theme-black": "hsl(0, 0%, 7%)",
       },
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
