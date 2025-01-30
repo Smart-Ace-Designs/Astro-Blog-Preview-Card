@@ -1,10 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@font-face {
-  font-family: "Figtree";
-  font-style: normal;
-  font-weight: 500 800;
-  src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+@theme {
+  --color-theme-yellow: hsl(47, 88%, 63%);
+  --color-theme-white: hsl(0, 0%, 100%);
+  --color-theme-gray: hsl(0, 0%, 50%);
+  --color-theme-black: hsl(0, 0%, 7%);
+
+  --font-figtree: Figtree, sans-serif;
+
+  --shadow-custom: 8px 8px 0px 0px rgb(18, 18, 18);
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  @font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 500 800;
+    src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  }
 }
