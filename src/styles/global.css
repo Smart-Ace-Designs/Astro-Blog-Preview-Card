@@ -25,5 +25,6 @@
     font-style: normal;
     font-weight: 500 800;
     src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
   }
 }
