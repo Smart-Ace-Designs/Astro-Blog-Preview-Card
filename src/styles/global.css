@@ -19,12 +19,12 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+}
 
-  @font-face {
+@font-face {
     font-family: "Figtree";
     font-style: normal;
     font-weight: 500 800;
     src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
     font-display: swap;
-  }
 }
