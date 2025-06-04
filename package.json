@@ -1,5 +1,5 @@
 {
-  "name": "astro-blog-preview-card",
+  "name": "blog-preview-card",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
