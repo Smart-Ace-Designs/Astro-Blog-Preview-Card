@@ -1,53 +1,69 @@
 ---
 import MainLayout from "@/layouts/MainLayout.astro";
-import Image from "astro/components/Image.astro";
-
-import cardImage from "@/assets/illustration-article.svg";
-import avatar from "@/assets/image-avatar.webp";
 ---
 
 <MainLayout
   title="Frontend Mentor | Blog Preview Card"
   description="A blog preview card component challenge from Frontend Mentor."
 >
-  <main class="flex h-screen items-center">
-    <section
-      class="bg-theme-white border-theme-black shadow-custom mx-auto w-[90%] max-w-96 rounded-3xl border p-6 sm:w-96"
-    >
-      <div class="mb-6">
-        <Image
-          src={cardImage}
-          alt="Inspiring Symbology"
-          loading={"eager"}
-          class="w-full rounded-xl"
-        />
-      </div>
-      <div class="">
-        <h2
-          class="bg-theme-yellow mb-2.5 inline-block rounded-xs px-3 py-1 text-sm font-extrabold"
-        >
-          Learning
-        </h2>
-        <p class="mb-4 text-sm">Published 21 Dec 2023</p>
-
-        <h1>
-          <a
-            href="https://google.com"
-            referrerpolicy="no-referrer"
-            class="hover:text-theme-yellow text-2xl font-extrabold hover:cursor-pointer"
-          >
-            HTML & CSS foundations
-          </a>
-        </h1>
-        <p class="text-theme-gray my-4">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-        <div class="flex items-center gap-3">
-          <Image src={avatar} alt="Greg Hooper" width="35" loading={"eager"} />
-          <p class="text-sm font-extrabold">Greg Hooper</p>
+  <main>
+    <div class="px-theme-300 flex h-screen items-center justify-center">
+      <article
+        class="bg-theme-white border-theme-gray950 shadow-theme rounded-theme-lg p-theme-300 w-96 border"
+      >
+        <div class="rounded-theme-sm h-[200px] overflow-hidden">
+          <img
+            src="/illustration-article.svg"
+            alt="Inspiring Symbology"
+            class="h-full w-full object-cover"
+            loading="eager"
+            width="336"
+            height="201"
+          />
         </div>
-      </div>
-    </section>
+        <div class="mt-theme-300">
+          <p
+            class="bg-theme-yellow rounded-theme-xs px-theme-100 py-theme-50 fluid-text-preset3 text-theme-gray950 inline-block font-extrabold"
+          >
+            Learning
+          </p>
+          <time
+            class="mt-theme-150 fluid-text-preset3 text-theme-gray950 block font-medium"
+            datetime="2023-12-21"
+          >
+            Published 21 Dec 2023
+          </time>
+          <h1 class="mt-theme-150">
+            <a
+              href="/"
+              target="_blank"
+              referrerpolicy="no-referrer"
+              class="hover:text-theme-yellow fluid-text-preset1 font-extrabold"
+            >
+              HTML & CSS foundations
+            </a>
+          </h1>
+          <p
+            class="text-theme-gray500 mt-theme-150 fluid-text-preset2 font-medium"
+          >
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <footer class="mt-theme-300 gap-theme-150 flex items-center">
+          <div class="size-8">
+            <img
+              src="/image-avatar.webp"
+              alt="Greg Hooper"
+              class="h-full w-full"
+              loading="eager"
+              width="32"
+              height="32"
+            />
+          </div>
+          <p class="text-preset3 font-extrabold">Greg Hooper</p>
+        </footer>
+      </article>
+    </div>
   </main>
 </MainLayout>

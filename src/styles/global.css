@@ -3,28 +3,47 @@
 @theme {
   --color-theme-yellow: hsl(47, 88%, 63%);
   --color-theme-white: hsl(0, 0%, 100%);
-  --color-theme-gray: hsl(0, 0%, 50%);
-  --color-theme-black: hsl(0, 0%, 7%);
+  --color-theme-gray500: hsl(0, 0%, 50%);
+  --color-theme-gray950: hsl(0, 0%, 7%);
 
-  --font-figtree: Figtree, sans-serif;
+  --font-sans: Figtree, sans-serif;
 
-  --shadow-custom: 8px 8px 0px 0px rgb(18, 18, 18);
+  --radius-theme-xs: 4px;
+  --radius-theme-sm: 10px;
+  --radius-theme-lg: 20px;
+
+  --shadow-theme: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+
+  --spacing-theme-50: 4px;
+  --spacing-theme-100: 8px;
+  --spacing-theme-150: 12px;
+  --spacing-theme-300: 24px;
 }
 
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+@utility fluid-text-preset1 {
+  font-size: clamp(1.25rem, -0.7031rem + 8.3333vw, 1.5rem);
+  line-height: 1.5;
+}
+
+@utility fluid-text-preset2 {
+  font-size: clamp(0.875rem, -0.1016rem + 4.1667vw, 1rem);
+  line-height: 1.5;
+}
+
+@utility fluid-text-preset3 {
+  font-size: clamp(0.75rem, -0.2266rem + 4.1667vw, 0.875rem);
+  line-height: 1.5;
+}
+
+@utility text-preset3 {
+  @apply text-sm;
+  line-height: 1.5;
 }
 
 @font-face {
-    font-family: "Figtree";
-    font-style: normal;
-    font-weight: 500 800;
-    src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
-    font-display: swap;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500 800;
+  src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
 }
