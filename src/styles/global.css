@@ -6,7 +6,7 @@
   --color-theme-gray500: hsl(0, 0%, 50%);
   --color-theme-gray950: hsl(0, 0%, 7%);
 
-  --font-sans: Figtree, sans-serif;
+  --font-figtree: Figtree, sans-serif;
 
   --radius-theme-xs: 4px;
   --radius-theme-sm: 10px;
@@ -38,12 +38,4 @@
 @utility text-preset3 {
   @apply text-sm;
   line-height: 1.5;
-}
-
-@font-face {
-  font-family: "Figtree";
-  font-style: normal;
-  font-weight: 500 800;
-  src: url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
-  font-display: swap;
 }
