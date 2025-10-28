@@ -7,11 +7,11 @@ import MainLayout from "@/layouts/MainLayout.astro";
   description="A blog preview card component challenge from Frontend Mentor."
 >
   <main>
-    <div class="px-theme-300 flex h-screen items-center justify-center">
+    <div class="flex h-screen items-center justify-center px-theme-300">
       <article
-        class="bg-theme-white border-theme-gray950 shadow-theme rounded-theme-lg p-theme-300 w-96 border"
+        class="w-96 rounded-theme-lg border border-theme-gray950 bg-theme-white p-theme-300 shadow-theme"
       >
-        <div class="rounded-theme-sm h-[200px] overflow-hidden">
+        <div class="h-[200px] overflow-hidden rounded-theme-sm">
           <img
             src="/illustration-article.svg"
             alt="Inspiring Symbology"
@@ -23,12 +23,12 @@ import MainLayout from "@/layouts/MainLayout.astro";
         </div>
         <div class="mt-theme-300">
           <p
-            class="bg-theme-yellow rounded-theme-xs px-theme-150 py-theme-50 fluid-text-preset3 text-theme-gray950 inline-block font-extrabold"
+            class="inline-block rounded-theme-xs bg-theme-yellow px-theme-150 py-theme-50 fluid-text-preset3 font-extrabold text-theme-gray950"
           >
             Learning
           </p>
           <time
-            class="mt-theme-150 fluid-text-preset3 text-theme-gray950 block font-medium"
+            class="mt-theme-150 block fluid-text-preset3 font-medium text-theme-gray950"
             datetime="2023-12-21"
           >
             Published 21 Dec 2023
@@ -36,21 +36,20 @@ import MainLayout from "@/layouts/MainLayout.astro";
           <h1 class="mt-theme-150">
             <a
               href="/"
-              target="_blank"
               referrerpolicy="no-referrer"
-              class="hover:text-theme-yellow fluid-text-preset1 font-extrabold"
+              class="fluid-text-preset1 font-extrabold hover:text-theme-yellow"
             >
               HTML & CSS foundations
             </a>
           </h1>
           <p
-            class="text-theme-gray500 mt-theme-150 fluid-text-preset2 font-medium"
+            class="mt-theme-150 fluid-text-preset2 font-medium text-theme-gray500"
           >
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
         </div>
-        <footer class="mt-theme-300 gap-theme-150 flex items-center">
+        <footer class="mt-theme-300 flex items-center gap-theme-150">
           <div class="size-8">
             <img
               src="/image-avatar.webp"
