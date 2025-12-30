@@ -16,6 +16,7 @@ export default defineConfig({
         name: "Figtree",
         cssVariable: "--font-figtree",
         weights: [400, 500, 800],
+        styles: ["normal"],
       },
     ],
   },
