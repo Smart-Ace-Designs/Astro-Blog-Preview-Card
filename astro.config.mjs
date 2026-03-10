@@ -8,15 +8,13 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  experimental: {
-    fonts: [
-      {
-        provider: fontProviders.google(),
-        name: "Figtree",
-        cssVariable: "--font-figtree",
-        weights: [400, 500, 800],
-        styles: ["normal"],
-      },
-    ],
-  },
+  fonts: [
+    {
+      provider: fontProviders.google(),
+      name: "Figtree",
+      cssVariable: "--font-figtree",
+      weights: [400, 500, 800],
+      styles: ["normal"],
+    },
+  ],
 });
